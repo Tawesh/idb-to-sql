@@ -58,6 +58,8 @@ pip install pymysql chardet lz4 pycryptodome
 
 ### 1. 图形界面使用(推荐)
 
+ME:我不知道是哪里出现的原因，导致gui应用打包失败，准确来说是打包成功后不能正常使用，出现了二次弹窗的BUG,但不影响python文件启动使用
+
 #### 启动GUI程序
 
 ```bash

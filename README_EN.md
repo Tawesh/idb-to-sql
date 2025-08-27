@@ -60,6 +60,8 @@ pip install pymysql chardet lz4 pycryptodome
 
 #### Starting the GUI Program
 
+ME：I don't know where the problem occurred, which caused the GUI application to fail to package. To be precise, it was due to a BUG that caused a secondary pop-up after successful packaging, but it did not affect the startup and use of Python files
+
 ```bash
 python app.py
 ```
