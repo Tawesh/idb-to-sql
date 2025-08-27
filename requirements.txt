@@ -1,0 +1,49 @@
+# IBD数据恢复工具 For MySQL - 依赖项
+# IBD Data Recovery Tool For MySQL - Dependencies
+
+# 数据库连接
+# Database connection
+pymysql>=1.0.2
+
+# 字符编码检测
+# Character encoding detection
+chardet>=5.0.0
+
+# GUI界面 (通常Python自带，但某些环境可能需要单独安装)
+# GUI interface (usually comes with Python, but may need separate installation in some environments)
+# tkinter  # 注释掉因为通常是内置的
+
+# 数据压缩和解压缩
+# Data compression and decompression
+zlib  # 内置模块
+lz4>=4.0.0
+
+# 加密解密
+# Encryption and decryption
+pycryptodome>=3.15.0
+
+# 系统和文件操作
+# System and file operations
+os  # 内置模块
+sys  # 内置模块
+struct  # 内置模块
+datetime  # 内置模块
+threading  # 内置模块
+multiprocessing  # 内置模块
+queue  # 内置模块
+functools  # 内置模块
+subprocess  # 内置模块
+
+# 可选：用于更好的性能
+# Optional: for better performance
+numpy>=1.21.0
+
+# 可选：用于日志记录
+# Optional: for logging
+logging  # 内置模块
+
+# 开发和调试工具（可选）
+# Development and debugging tools (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
