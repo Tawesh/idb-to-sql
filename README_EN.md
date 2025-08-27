@@ -1,5 +1,7 @@
 # IBD Data Recovery Tool For MySQL
 
+English | [中文](README.md)
+
 This is a comprehensive toolkit for MySQL database IBD file data recovery, supporting MySQL 5.7 and 8.0 versions. The tool can recover data from corrupted IBD files and provides both graphical interface and command-line usage options.
 
 ## Features
